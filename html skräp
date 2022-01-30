@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Week 3 Live Session</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <header class="image-header">
+      <h1>I'm blue da ba dee da ba die</h1>
+    </header> -->
+
+    <header class="video-header">
+      <video autoplay loop muted poster="/assets/lollie.jpg">
+        <source src="/assets/blue.mp4" type="video/mp4" />
+        Your browser doesn't support the video tag. The sadness :(
+      </video>
+      <h1>I'm blue da ba dee da ba die</h1>
+    </header>
+
+    <main>
+      <form id="form" action="https://httpbin.org/anything" method="post">
+        <label
+          >Your name:
+          <input id="nameInput" class="text-input" type="text" name="name" />
+        </label>
+        <label
+          >Do you want to read our newsletter?
+          <input type="checkbox" name="newsletter" />
+        </label>
+        <button type="submit">greet</button>
+      </form>
+
+      <h2 id="greeting"></h2>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+-----------------
+
+
+
+
+
+
+
+<main class="main">
+
+
+  <!--Form-->
+
+  <div class="main-form">
+    <form id="form" action="https://httpbin.org/anything" method="post">
+
+    <h1>Sign Up Now for a Monthly Coffee Box!</h1>
+    <form>
+        <div class="section">Name</div>
+        <div class="inner-wrap">
+            <label>Your Full Name <input type="text" name="field1" /></label>
+        </div>
+        <div class="section">Adress</div>
+        <div class="inner-wrap">
+            <label>Street <input type="text" name="field2" /></label>
+            <label>Postal Code<input type="number" name="field3" /></label>
+        </div>
+        <div class="section">Contacts</div>
+        <div class="inner-wrap">
+            <label>E-mail <input type="email" name="field3" /></label>
+            <label>Phone<input type="tel" name="field4" /></label>
+        </div>
+        <div class="section">Order Info</div>
+        <div class="inner-wrap">
+            <label>Which box do you want to order?
+              <select>
+                <option>Espressomania</option>
+                <option>African Heat</option>
+                <option>Latin Americano</option>
+                <option>Indian Summer</option>
+              </select>
+            </label>
+            </div>
+            <button>submit</button>
+          
+        </div>
+
+</form>
